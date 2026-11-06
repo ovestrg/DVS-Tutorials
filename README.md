@@ -71,7 +71,7 @@ Anders als bei den relationalen Quellsystemen können die Dokumente unterschiedl
 Außerdem wird beschrieben, wie sich die Maschinendaten über die Chargennummer mit den Daten des Wertstoffhandels verbinden lassen.
 
 **Wichtige Dateien:**
-- `NoSQL_Tutorial_MongoDB.docx` – Beschreibung der Umsetzung und der MongoDB-Befehle
+- [NoSQL-Dokumentation](./Tut003%20-%20NoSQL/NoSQL_Tutorial_MongoDB.docx) – Beschreibung der Umsetzung und der MongoDB-Befehle
 - PNG-Dateien im selben Ordner – Screenshots der einzelnen Arbeitsschritte und Ergebnisse
 
 **Zum Nachvollziehen:** Die Schritte und Befehle sind in der Word-Dokumentation beschrieben. Die Screenshots zeigen die Durchführung.
@@ -93,7 +93,7 @@ Im vierten Tutorial haben wir vier Python-Skripte erstellt und damit insgesamt f
 Für die Versuche verwenden wir die Diabetes- und Wine-Datensätze aus scikit-learn. Die Python-Skripte sind in Supervised und Unsupervised Learning unterteilt.
 
 **Wichtige Dateien:**
-- `ML_Tutorial.docx` – Dokumentation der Verfahren und Ergebnisse
+- [Machine-Learning-Dokumentation](./Tut004%20-%20MachineLearning/ML_Tutorial.docx) – Dokumentation der Verfahren und Ergebnisse
 - `Supervised Learning/` – lineare Regression, Decision Tree und Random Forest
 - `Unsupervised Learning/` – k-Means und PCA
 
