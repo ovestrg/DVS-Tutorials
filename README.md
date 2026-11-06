@@ -45,7 +45,7 @@ Damit untersuchen wir unter anderem, welche Mengen an den beiden Standorten ange
 
 ## 4. Tutorial 2 – Reporting
 
-**Ordner:** `Tut002 - reporting/`
+**Ordner:** [Tut002 – Reporting](./Tut002%20-%20reporting/)
 
 Im zweiten Tutorial verwenden wir die Daten aus der Business-Schicht des Data Warehouses für ein Dashboard in Power BI.
 
@@ -53,7 +53,8 @@ Das Dashboard zeigt unter anderem Ankaufswerte, Mengen und Ausbeutequoten. Auße
 
 **Wichtige Dateien:**
 - `tutorial002_reporting.pbix` – Power-BI-Dashboard
-- `Reporting_Tutorial_Dashboard_Wertstoffhandel.docx` – Dokumentation mit Aufbau, Funktionen und Ergebnissen
+- [Reporting-Dokumentation](./Tut002%20-%20reporting/Reporting_Tutorial_Dashboard_Wertstoffhandel.docx) – Dokumentation mit Aufbau, Funktionen und Ergebnissen
+
 
 **Zum Nachvollziehen:** Die Word-Dokumentation erklärt das Dashboard und die verwendeten OLAP-Funktionen. Die `.pbix`-Datei kann mit Power BI Desktop geöffnet werden.
 
@@ -61,7 +62,7 @@ Die verwendeten Daten stammen aus Tutorial 1. Die Verbindung zwischen den beiden
 
 ## 5. Tutorial 3 – NoSQL
 
-**Ordner:** `Tut003 - NoSQL/`
+**Ordner:** [Tut003 – NoSQL](./Tut003%20-%20NoSQL/)
 
 Im dritten Tutorial untersuchen wir MongoDB anhand von Maschinendaten der Sortieranlagen.
 
@@ -79,7 +80,7 @@ Dieses Tutorial ergänzt das gemeinsame Szenario um Maschinendaten. Es ist jedoc
 
 ## 6. Tutorial 4 – Machine Learning
 
-**Ordner:** `Tut004 - MachineLearning/`
+**Ordner:** [Tut004 – Machine Learning](./Tut004%20-%20MachineLearning/)
 
 Im vierten Tutorial haben wir vier Python-Skripte erstellt und damit insgesamt fünf Verfahren untersucht:
 
