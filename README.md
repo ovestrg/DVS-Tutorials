@@ -76,7 +76,8 @@ Außerdem wird beschrieben, wie sich die Maschinendaten über die Chargennummer 
 
 **Zum Nachvollziehen:** Die Schritte und Befehle sind in der Word-Dokumentation beschrieben. Die Screenshots zeigen die Durchführung.
 
-Dieses Tutorial ergänzt das gemeinsame Szenario um Maschinendaten. Es ist jedoch nicht Bestandteil der automatischen ETL-Beladung aus Tutorial 1.
+Dieses Tutorial ergänzt das gemeinsame Szenario um Maschinendaten. Die in MongoDB erfassten Daten werden verdichtet und in das Staging-Schema des PostgreSQL-Data-Warehouse übertragen. Diese Übertragung erfolgt separat von der automatischen ETL-Beladung aus Tutorial 1.
+
 
 ## 6. Tutorial 4 – Machine Learning
 
