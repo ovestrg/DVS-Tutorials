@@ -71,7 +71,7 @@ Anders als bei den relationalen Quellsystemen können die Dokumente unterschiedl
 Außerdem wird beschrieben, wie sich die Maschinendaten über die Chargennummer mit den Daten des Wertstoffhandels verbinden lassen.
 
 **Wichtige Dateien:**
-- [NoSQL-Dokumentation](./Tut003%20-%20NoSQL/NoSQL_Tutorial_MongoDB.docx) – Beschreibung der Umsetzung und der MongoDB-Befehle
+_________________________________
 - PNG-Dateien im selben Ordner – Screenshots der einzelnen Arbeitsschritte und Ergebnisse
 
 **Zum Nachvollziehen:** Die Schritte und Befehle sind in der Word-Dokumentation beschrieben. Die Screenshots zeigen die Durchführung.
