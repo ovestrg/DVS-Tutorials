@@ -26,7 +26,7 @@ Das Data Warehouse aus Tutorial 1 bildet die Grundlage für das Reporting in Tut
 
 ## 3. Tutorial 1 – Data Warehouse
 
-**Ordner:** `Tut001 - dwh/`
+**Ordner:** [Tut001 – Data Warehouse](./Tut001%20-%20dwh/)
 
 Im ersten Tutorial haben wir zwei getrennte Quellsysteme für die Annahme und Verwertung von Altmetall aufgebaut. Die Daten werden mit PostgreSQL in einem Data Warehouse zusammengeführt.
 
