@@ -35,7 +35,7 @@ Das Data Warehouse besteht aus den Schichten Staging, Core und Business. In der 
 Damit untersuchen wir unter anderem, welche Mengen an den beiden Standorten angekauft werden und wie hoch die Ausbeute nach der Sortierung ist.
 
 **Wichtige Dateien:**
-- `README_DWH.md` – Beschreibung des Data Warehouses
+- [Data-Warehouse-Dokumentation](./Tut001%20-%20dwh/README_DWH.md) – Beschreibung des Data Warehouses
 - `Wertstoffhandel/01-Quellsysteme/` – SQL-Dateien für die beiden Quellsysteme
 - `Wertstoffhandel/02-dwh/` – Aufbau und Beladung des Data Warehouses
 - `Wertstoffhandel/03-Auswertung/` – SQL-Auswertungen und Screenshots
