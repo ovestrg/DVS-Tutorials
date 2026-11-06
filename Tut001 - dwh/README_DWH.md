@@ -48,21 +48,24 @@ Der Zugriff auf die Quelldatenbanken erfolgt über die Erweiterung
 ## Ausfuehrungsreihenfolge
 
 ```
+# Befehle im Ordner "Wertstoffhandel" ausführen
+
 createdb annahme
 createdb verwertung
 createdb dwh
 
-psql -d annahme    -f 01_quellsysteme/01_annahme_ddl.sql
-psql -d annahme    -f 01_quellsysteme/03_annahme_data.sql
-psql -d verwertung -f 01_quellsysteme/02_verwertung_ddl.sql
-psql -d verwertung -f 01_quellsysteme/04_verwertung_data.sql
+psql -d annahme -f "01-Quellsysteme/01Annahme.sql"
+psql -d annahme -f "01-Quellsysteme/02Annahme.sql"
 
-psql -d dwh -f 02_dwh/05_dwh_stage.sql
-psql -d dwh -f 02_dwh/06_dwh_core.sql
-psql -d dwh -f 02_dwh/07_dwh_business.sql
-psql -d dwh -f 02_dwh/08_dwh_etl.sql
+psql -d verwertung -f "01-Quellsysteme/03Verwertung.sql"
+psql -d verwertung -f "01-Quellsysteme/04Verwertung.sql"
 
-psql -d dwh -f 03_auswertungen/09_analysen.sql
+psql -d dwh -f "02-dwh/05Staging.sql"
+psql -d dwh -f "02-dwh/06Core.sql"
+psql -d dwh -f "02-dwh/07Business.sql"
+psql -d dwh -f "02-dwh/08Steuerungdwh.sql"
+
+psql -d dwh -f "03-Auswertung/09AuswertungBusinessdwh.sql"
 ```
 
 Eine erneute Beladung startet mit einem einzigen Aufruf:
